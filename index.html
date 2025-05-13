@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="margin-left: 10%;margin-right: 10%; padding: 0%; " >
+   <center> <img src="./asseset/smit logo.png" height="100%" width="400" alt="smit logo"></center>
+    <h1><center>Saylani Online Academy</center></h1>
+
+    <form action="./submitForm.html" style="background-color: rgb(185, 185, 185);"width="100"  method="post">
+        <table border="0">
+            &nbsp;<h2><center>Student Regestration Form</center></h2>
+        <tr>
+            <td><label for="name">&nbsp;Name:&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label></td>
+            <td><input size="28" type="text"  name="name" required placeholder="Name" ></td>
+            <td><br><br></td>
+        </tr>
+        <tr>
+            <td><label for="Fathername">&nbsp;Father Name:</label></td>
+            <td><input size="28" type="text" name="Fathername" required placeholder="Father Name"></td>
+            <td><br><br></td>
+        </tr>
+        <tr>
+            <td><label for="password">&nbsp;Password:</label></td>
+            <td><input size="28" type="password" name="Password" required="password" minlength="5"maxlength="10"  required="text" placeholder="*********"></td>
+            <td><br><br></td>
+        </tr>
+        <tr>
+            <td><label for="Address">&nbsp;Address:</label></td>
+            <td ><textarea name="Address"  cols="25" rows="3" required="Address" placeholder="Address" id=""></textarea></td>
+            <td><br><br></td>
+        </tr>
+        <tr>
+            <td><label for="Gender">&nbsp;Gender:</label></td>
+            <td><label for="Male">Male</label>
+                <input type="radio" name="Gender" required="Male">
+                <label for="female">Female</label>
+                <input type="radio" name="Gender"></td>
+                <td><br><br></td>
+        </tr>
+        <tr>
+            <td><label for="Language"  value="Language">&nbsp;Language:</label></td>
+            <td><input type="checkbox" value="Language" required="urdu" >Urdu
+                <input type="checkbox" value="Language" >English 
+                <input type="checkbox" value="Language" >Arabic 
+                <input type="checkbox" value="Language" >Chines</td>
+                <td><br><br></td>
+        </tr>
+        <tr>
+            <td><label for="date">&nbsp;DOB:</label></td>
+            <td><input type="date"valie="date" required="DOB"></td>
+            <td><br><br></td>
+        </tr>
+        <tr>
+            <td><label for="email">&nbsp;Email:</label></td>
+            <td><input size="28" type="email"name="Email" required="Email" placeholder="Email"></td>
+            <td><br><br></td>
+        </tr>
+        <tr>
+            <td><label for="Mobile">&nbsp;Mobile Number:</label></td>
+            <td><input type="number" value="Mobile" required="Mobile" placeholder="Mobile Number"></td>
+            <td><br><br></td>
+        </tr>
+        <tr>
+            <td><label for="City">&nbsp;City:</label></td>
+            <td><select name="" id="">
+                <option value="City" disabled selected>Select Your City</option>
+                <option value="City">Karachi</option>
+                <option value="City">Lahore</option>
+                <option value="City">Hyderabad</option>
+                <option value="City">Islamabad</option>
+                <option value="City">Peshawar</option>
+                <option value="City">Faislaabd</option>
+            </select></td>
+            <td><br><br></td> 
+        </tr>
+        <tr>
+            <td><label for="Hobbies">&nbsp;Hobbies:</label></td>
+            <td> <select name="Hobbies" multiple size="4" id="">
+                <option value="Hobbies">Circket</option>
+                <option value="Hobbies">Football</option>
+                <option value="Hobbies">Hocky</option>
+                <option value="Hobbies">Tennis</option>
+                <option value="Hobbies">basketball</option>
+            </select></td>
+            <td><br><br><br><br><br></td>
+            
+        </tr>
+        <tr>
+            <td><label for="File">&nbsp;Picture Upload:</label></td>
+            <td><input type="file"required="file" name="file" >
+            <button>Upload</button></td>
+            <td><br><br><br></td>
+        </tr>
+        <tr>
+            <td  action="Submit Form" method="post" colspan="2" align="center" >
+               <!-- <a href="./submitForm.html"> -->
+                <!-- <label for="button">submit</label> -->
+                 <!-- <input type="submit"> -->
+              <!-- </a> -->
+               
+               <a href="./submitForm.html">
+               <input type="button" onclick="location.href='submit';" value="Submit Form" />
+</a>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
